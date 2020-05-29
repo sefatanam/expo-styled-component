@@ -1,4 +1,4 @@
-# Expo Styled-Component
+# Practice Design with Expo
 
 ## Layout
 
