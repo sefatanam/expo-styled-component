@@ -24,6 +24,11 @@ const Home = ({ navigation }) => {
         >
           <Text style={{ color: "#fff" }}>Go to the Music Screen</Text>
         </TouchableOpacity>
+
+
+        <TouchableOpacity onPress={()=>navigation.navigate("Settings")} style={styles.button}>
+          <Text style={{color:'#fff'}}>Go to Settings</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
